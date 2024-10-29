@@ -64,6 +64,6 @@ int main() {
     cout <<"the price is " << result << "\n";
     double tmp;
     cin >> tmp;
-    
+
     return 0;
 }

@@ -2,7 +2,12 @@
 
 1. **Compile:** Use a C++ compiler (like g++) to compile the source files. Example:
    ```bash
-   g++ -o stock_program -Iinclude src/main.cpp src/csv_utils.cpp src/data_loader.cpp src/stock_analyzer.cpp src/csv_writer.cpp
+   cd chapter1
+   g++ -o SimpleMCMain1 -Iinclude SimpleMCMain1.cpp ./include/Random1.cpp
+   cd ..
+   cd chapter2
+   g++ -o SimpleMCMain2 -Iinclude SimpleMCMain2.cpp ./include/*.cpp
 2. **Run**:
     ```bash
-    ./stock_program
+    ./SimpleMCMain1
+    ./SimpleMCMain2
