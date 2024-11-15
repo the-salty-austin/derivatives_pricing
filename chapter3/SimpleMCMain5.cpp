@@ -4,6 +4,12 @@ PayOff2.cpp
 Random1.cpp
 SimpleMC2.cpp
 */
+/*
+    The crucial point is that whilst we must include the file DoubleDigital.h in
+    our interface we do not include it in either the Monte Carlo file, SimpleMC2,or
+    the pay-off file, PayOff2. The changes to the interface file are minimal and we
+    have
+*/
 #include<SimpleMC2.h>
 #include<DoubleDigital.h>
 #include<Power.h>
